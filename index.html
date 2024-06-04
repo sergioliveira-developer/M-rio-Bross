@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>Mario Bros</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div onclick="hiddenMask()" class="form-mask"></div>
+
+  <div class="epigrafe">
+    <img src="./assets/icon.png" alt="logo-mario">
+    <a href="/">Home</a>
+    <a href="">Our services</a>
+    <a href="https://wa.link/up0k32">Contact us</a>
+  </div>
+
+  <div class="container-main">
+
+    <div class="container-left">
+      <img class="logo-mario" src="./assets/logo-Mario.png" alt="logo-Mário">
+
+      <p>
+        Encanadores Mario & Luigi - Resolvemos seus problemas | Com estilo !
+        Você já encontrou em uma situação de emergência com encanamento?
+        Vazamentos inesperados, canos entupidosou torneiras que não param de pingar?
+        Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a vocês os
+        encanadores mais famosos do Reino dos Cogumelos - Mario & Luigi!
+      </p>
+
+      <button onclick="buttonContact()">Entre em contato</button>
+    </div>
+
+    <div class="container-right">
+      <img class="mario-luigi" src="./assets/mario.png" alt="Mario&Luigi">
+    </div>
+
+  </div>
+
+
+  <div class="container-video">
+    <video src="./assets/video.mp4" logo="animation" autoplay muted loop></video>
+    <div class="mask"></div>
+  </div>
+
+
+  <footer>
+    <a href="https://wa.link/up0k32">
+      <img src="./assets/whatsapp.png" alt="Contact-us" class="whatsapp">
+    </a>
+  </footer>
+
+  <form class="contact-us-form">
+    <input placeholder=" Enter your name" type="text" name="name">
+    <input placeholder=" Enter your number" type="tel" name="phone">
+    <textarea placeholder=" Describe your message..." name="maybe"></textarea>
+    <button type="submit">Pedir orçamento</button>
+  </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
